@@ -6,6 +6,21 @@ Para cada do evento, iniciando em 2017, vamos produzir um livro, no qual os cap�
 
 O projeto está aberto para os contribuidores não somente enviem seus textos, mas possam ver em suas próprias máquinas como o livro todo até o ponto em que foi produzido.
 
+# Como escrever os capítulos
+
+**Procedimentos iniciais:**
+
+* Abra uma [issue](https://github.com/ftslorgbr/book/issues);
+* Como título da issue coloque o nome do capítulo que irá escrever: Capítulo N;
+* Faça um commit inicial criando a pasta do capítulo com o arquivo README.md dentro;
+
+Estes procedimentos irão "marcar território" - todos saberão que alguém vai escrever aquele capítulo e assim não criarão (intencionalmente) uma pasta igual.
+A partir desse commit, pode fazer a escrita localmente e escolher se vai subindo as alterações aos poucos ou quando terminar tudo.
+
+Se tiver dúvidas sobre GIT, o [Guia de Roger Dudler](http://rogerdudler.github.io/git-guide/index.pt_BR.html) é uma boa referência.
+
+A construção dos capítulos deverá seguir as regras abaixo. É essencial lê-las.
+
 # Regras para produção do livro
 
 * Um livro (pelo menos) será produzido por ano, a partir de 2017;
@@ -18,9 +33,9 @@ chapter01
 --README.md
 chapter02
 --images
-----chapter02.01
+--chapter02.01
 ...
-----chapter02.mm
+--chapter02.mm
 --README.md
 ...
 chapterNN
