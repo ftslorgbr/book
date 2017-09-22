@@ -1,1 +1,2 @@
-OSM
+Open Street Maps
+
