@@ -1,0 +1,542 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Capítulo 4 - O Projeto Debian quer você! · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../chapter05/" />
+    
+    
+    <link rel="prev" href="../chapter03/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introdução
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../chapter01/">
+            
+                <a href="../chapter01/">
+            
+                    
+                    Capítulo 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../chapter02/">
+            
+                <a href="../chapter02/">
+            
+                    
+                    Capítulo 2 - Open Street Maps
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../chapter03/">
+            
+                <a href="../chapter03/">
+            
+                    
+                    Capítulo 3 - Open Stack: Implantação e uso
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Capítulo 4 - O Projeto Debian quer você!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../chapter05/">
+            
+                <a href="../chapter05/">
+            
+                    
+                    Capítulo 5 - Semeando liberdade: como (e onde) o software livre inclui as pessoas
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Capítulo 4 - O Projeto Debian quer você!</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="cap&#xED;tulo-4">Cap&#xED;tulo 4</h1>
+<h1 id="o-projeto-debian-quer-voc&#xEA;">O Projeto Debian quer voc&#xEA;!</h1>
+<h2 id="debian">Debian</h2>
+<p>O Debian &#xE9; uma organiza&#xE7;&#xE3;o formada por pessoas de todo o mundo dedicada ao desenvolvimento de Software Livre e a promo&#xE7;&#xE3;o dos ideais da comunidade de Software Livre. O Projeto Debian come&#xE7;ou em 1993 com o objetivo de desenvolver um sistema operacional livre para computadores.  Traduzido para mais de 30 l&#xED;nguas, e suportando uma enorme variedade de arquiteturas de computadores, o Debian se intitula o sistema operacional universal e &#xE9; hoje o maior projeto de Software Livre no mundo. Atualmente existem mais de 1.000 desenvolvedores oficiais do Debian e milhares de usu&#xE1;rios que contribuem de alguma forma para o projeto.</p>
+<p>Site do Projeto Debian: <a href="http://debian.org" target="_blank">http://debian.org</a></p>
+<h2 id="ix-f&#xF3;rum-de-tecnologia-em-software-livre---ftsl">IX F&#xF3;rum de Tecnologia em Software Livre - FTSL</h2>
+<p>O F&#xF3;rum de Tecnologia em Software Livre - FTSL, &#xE9; um evento anual, realizado em Curitiba - PR, sendo considerado o maior evento gratuito de Software Livre do Brasil, e tem como prop&#xF3;sito a dissemina&#xE7;&#xE3;o de novas tecnologias baseadas em Software Livre, bem como, a troca de experi&#xEA;ncias com as comunidades, universidades e empresas p&#xFA;blicas e privadas, por meio de palestras, pain&#xE9;is e oficinas.</p>
+<p>A 9a edi&#xE7;&#xE3;o do FTSL aconteceu de 27 a 29 de setembro de 2017 no Campus central da Universidade Tecnol&#xF3;gica Federal do Paran&#xE1; - UTFPR.
+No &#xFA;ltimo dia do evento a comunidade Debian promoveu seis palestras na trilha chamada de minievento Debian. Minha palestra com o t&#xED;tulo <strong>O Projeto Debian quer voc&#xEA;!</strong> foi a quarta realizada dentro deste minievento.</p>
+<p>Site do FTSL: <a href="http://debian.org" target="_blank">http://debian.org</a></p>
+<p>Site da UTFPR: <a href="http://utfpr.edu.br" target="_blank">http://utfpr.edu.br</a></p>
+<h2 id="o-projeto-debian-quer-voc&#xEA;">O Projeto Debian quer voc&#xEA;!</h2>
+<p>Nesta palestra considero que voc&#xEA; j&#xE1; sabe o que &#xE9; o Debian e que agora quer saber como contribuir para o Projeto. Portanto, n&#xE3;o explico o que &#xE9; uma distribui&#xE7;&#xE3;o, qual o origem do Debian, como o nome foi criado, o Debian Social Contract, quais os nomes das vers&#xF5;es, quais as diferen&#xE7;as entre stable, testing e unstable e entre main, contrib e non-free, etc.</p>
+<p>Para ver arquivos de apresenta&#xE7;&#xF5;es realizadas pela comunidade Debian, incluindo algumas de introdu&#xE7;&#xE3;o com abordagens mais b&#xE1;sicas, acesse: <a href="http://debianbrasil.org.br/apresentacoes" target="_blank">http://debianbrasil.org.br/apresentacoes</a></p>
+<p>Qualquer pessoa pode contribuir para o Projeto Debian, independente do seu n&#xED;vel de conhecimento. Voc&#xEA; pode contribuir de forma an&#xF4;nima, ou se registrando na p&#xE1;gina Contributors para manter suas contribui&#xE7;&#xF5;es registradas. Para se registrar, acesse: <a href="https://contributors.debian.org" target="_blank">https://contributors.debian.org</a></p>
+<p>Depois que voc&#xEA; se torna um contribuidor registrado, voc&#xEA; pode participar dos processos para se tornar um membro oficial. Existem tr&#xEA;s tipos de contribuidores oficiais.</p>
+<ul>
+<li>DM - Debian Maintainer (Mantenedor Debian).</li>
+<li>DD - Debian Developer non-uploading (Desenvolvedor Debian sem permiss&#xE3;o de upload).</li>
+<li>DD - Debian Developer uploading (Desenvolvedor Debian com permiss&#xE3;o de upload).</li>
+</ul>
+<p>Para obter mais informa&#xE7;&#xF5;es sobre como se tornar um DM e um DD, acesse respectivamente: <a href="https://wiki.debian.org/DebianMaintainer" target="_blank">https://wiki.debian.org/DebianMaintainer</a> e <a href="https://wiki.debian.org/DebianDeveloper" target="_blank">https://wiki.debian.org/DebianDeveloper</a></p>
+<p>Voc&#xEA; tamb&#xE9;m pode assistir a palestra do Jo&#xE3;o Eriberto Mota Filho sobre este tema realizada no FTSL no link <a href="http://videos.softwarelivre.org/ftsl-2017/como-se-tornar-um-membro-oficial-do-debian-dd-ou-dm.html" target="_blank">http://videos.softwarelivre.org/ftsl-2017/como-se-tornar-um-membro-oficial-do-debian-dd-ou-dm.html</a> e obter o arquivo da apresenta&#xE7;&#xE3;o no link <a href="http://www.eriberto.pro.br/palestras/debian-dd.pdf" target="_blank">http://www.eriberto.pro.br/palestras/debian-dd.pdf</a></p>
+<p>Vamos agora ver as formas para contribuir com o Projeto Debian.</p>
+<h3 id="0---empacotamento-de-software">0 - Empacotamento de software</h3>
+<p>O empacotamento de software &#xE9; a principal forma de contribuir para o Debian, mas exige conhecimento t&#xE9;cnico principalmente para usar o terminal. Contribuir com empacotamento permite que voc&#xEA; se torne um DD uploading.</p>
+<p>O empacotamento n&#xE3;o foi abordado nesta palestra porque est&#xE1; dispon&#xED;vel no YouTube uma s&#xE9;rie de v&#xED;deos tutoriais gravados Jo&#xE3;o Eriberto Mota Filho com mais de 14 horas mostrando em detalhes como fazer empacotamento. Acesse o site do Jo&#xE3;o Eriberto para ver mais detalhes: <a href="http://debianet.com.br" target="_blank">http://debianet.com.br</a></p>
+<h3 id="1---instale-e-use-o-debian">1 - Instale e use o Debian</h3>
+<p>A forma prim&#xE1;ria para contribuir para o Debian &#xE9;: instalar e usar o Debian no seu computador ou notebook. Voc&#xEA; pode obter uma c&#xF3;pia da imagem oficial do Debian neste link <a href="https://www.debian.org/CD" target="_blank">https://www.debian.org/CD</a>. Basta voc&#xEA; fazer o download, gravar em um DVD ou pendrive e instalar no seu equipamento.</p>
+<p>Acesse este link para ver um site mais amig&#xE1;vel para fazer o download: <a href="http://get.debian.net" target="_blank">http://get.debian.net</a></p>
+<p>A principal c&#xF3;pia do reposit&#xF3;rio do Debian no Brasil, chamado de espelho oficial, fica no Departamento de Inform&#xE1;tica da Universidade Federal do Paran&#xE1; (DInf UFPR) e pode ser acesso neste link: <a href="http://ftp.br.debian.org" target="_blank">http://ftp.br.debian.org</a></p>
+<p>Ao instalar e usar o Debian, voc&#xEA;:</p>
+<ul>
+<li>Ter&#xE1; testado o instalador.</li>
+<li>Aumentar&#xE1; a base de usu&#xE1;rios.</li>
+<li>Ficar&#xE1; familiarizado com um sistema GNU/Linux.</li>
+<li>Ajudar&#xE1; na divulga&#xE7;&#xE3;o.</li>
+</ul>
+<h3 id="2---report-bugs">2 - Report bugs</h3>
+<p>Ao encontrar um problema no Debian, envie um bug report (relat&#xF3;rio de erros) para que os Desenvolvedores fiquem sabendo e possam corrigi-lo. Acesse este link para saber como relatar um bug no Debian: <a href="https://www.debian.org/Bugs/Reporting" target="_blank">https://www.debian.org/Bugs/Reporting</a></p>
+<p>Voc&#xEA; pode preencher o relat&#xF3;rio via terminal com a ferramenta reportbug ou via interface gr&#xE1;fica usando a ferramenta reportbug-ng.</p>
+<p>Os bugs no Debian possuem n&#xED;veis de severidade:</p>
+<ul>
+<li>critical</li>
+<li>grave</li>
+<li>serious</li>
+<li>important</li>
+<li>normal</li>
+<li>minor</li>
+<li>wishlist</li>
+</ul>
+<p>Alguns deste bugs s&#xE3;o release-critical. Veja mais detalhes neste link: <a href="https://bugs.debian.org/release-critical" target="_blank">https://bugs.debian.org/release-critical</a></p>
+<p>o DD Raphael Hertzog escreveu 7 dicas para enviar relat&#xF3;rios de bugs do Debian &#xFA;teis e ter o seu problema resolvido (em ingl&#xEA;s): <a href="https://raphaelhertzog.com/go/bugreporting" target="_blank">https://raphaelhertzog.com/go/bugreporting</a></p>
+<p>O Debian possui um Sistema de Acompanhamento de Bugs (BTS - Bug Tracking System) por meio do qual enviamos detalhes de bugs reportados por usu&#xE1;rios e desenvolvedores. Cada bug &#xE9; associado a um n&#xFA;mero e &#xE9; mantido no arquivo at&#xE9; que seja marcado como tendo sido trabalhado. Mais detalhes neste link: <a href="https://www.debian.org/Bugs" target="_blank">https://www.debian.org/Bugs</a></p>
+<p>Exemplos de bugs abertos no Gimp: <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?dist=unstable;package=gimp" target="_blank">https://bugs.debian.org/cgi-bin/pkgreport.cgi?dist=unstable;package=gimp</a></p>
+<h3 id="3---patches">3 - Patches</h3>
+<p>Se voc&#xEA; sabe como resolver um bug, voc&#xEA; pode enviar um patch. Os Desenvolvedores ir&#xE3;o analisar e se tudo estiver correto, eles aplicar&#xE3;o o seu patch dando o cr&#xE9;dito a voc&#xEA; pela ajuda, e assim voc&#xEA; ter&#xE1; contribu&#xED;do para o Debian.</p>
+<h3 id="4---documenta&#xE7;&#xE3;o">4 - Documenta&#xE7;&#xE3;o</h3>
+<p>Voc&#xEA; pode produzir documenta&#xE7;&#xE3;o para o Debian escrevendo:</p>
+<ul>
+<li>Manuais.</li>
+<li>Tutoriais.</li>
+<li>HOWTOs.</li>
+<li>FAQs.</li>
+</ul>
+<p>Veja mais em <a href="https://www.debian.org/doc" target="_blank">https://www.debian.org/doc</a> e <a href="https://wiki.debian.org/Brasil/Documentos" target="_blank">https://wiki.debian.org/Brasil/Documentos</a></p>
+<p>Voc&#xEA; pode publicar tutoriais ensinando  a fazer alguma coisa no Debian, levando em considera&#xE7;&#xE3;o as seguintes ideias:</p>
+<ul>
+<li>Tema t&#xE9;cnico ou n&#xE3;o t&#xE9;cnico.</li>
+<li>N&#xED;vel b&#xE1;sico ou avan&#xE7;ado.</li>
+<li>Publica&#xE7;&#xE3;o escrita ou em v&#xED;deo.</li>
+</ul>
+<p>Alguns sites de brasileiros com dicas e tutoriais:</p>
+<ul>
+<li><a href="http://eriberto.pro.br/blog" target="_blank">http://eriberto.pro.br/blog</a></li>
+<li><a href="http://blog.silva.eti.br" target="_blank">http://blog.silva.eti.br</a></li>
+<li><a href="http://softwarelivre.org/terceiro" target="_blank">http://softwarelivre.org/terceiro</a></li>
+<li><a href="http://www.debiandicas.org" target="_blank">http://www.debiandicas.org</a></li>
+<li><a href="http://www.debiandicas.com.br" target="_blank">http://www.debiandicas.com.br</a></li>
+<li><a href="http://debianmaniaco.blogspot.com.br" target="_blank">http://debianmaniaco.blogspot.com.br</a></li>
+</ul>
+<h3 id="5---suporte-a-outros-usu&#xE1;rios">5 - Suporte a outros usu&#xE1;rios</h3>
+<p>Outra forma importante de contribuir para o Debian &#xE9; ajudando a tirar d&#xFA;vidas de outros usu&#xE1;rios. Existem muitos locais que voc&#xEA; pode participar. Os meios oficiais do Projeto Debian s&#xE3;o:</p>
+<ul>
+<li><p>Lista de discuss&#xE3;o debian-user-portuguese:</p>
+<ul>
+<li><a href="https://lists.debian.org/debian-user-portuguese" target="_blank">https://lists.debian.org/debian-user-portuguese</a></li>
+</ul>
+</li>
+<li><p>Canal no IRC:</p>
+<ul>
+<li>Server: irc.debian.org</li>
+<li>Canal: #debian-br</li>
+</ul>
+</li>
+</ul>
+<p>Nos &#xFA;ltimos anos surgiram outros espa&#xE7;os n&#xE3;o oficiais mantidos pela comunidade:</p>
+<ul>
+<li><p>F&#xF3;rum</p>
+<ul>
+<li><a href="http://www.forumdebian.com.br" target="_blank">http://www.forumdebian.com.br</a></li>
+</ul>
+</li>
+<li><p>Grupos no facebook:</p>
+<ul>
+<li><a href="https://www.facebook.com/groups/DebianBR" target="_blank">https://www.facebook.com/groups/DebianBR</a></li>
+<li><a href="https://www.facebook.com/groups/5366446847" target="_blank">https://www.facebook.com/groups/5366446847</a></li>
+</ul>
+</li>
+<li><p>Grupos no telegram:</p>
+<ul>
+<li><a href="https://t.me/debianbrasil" target="_blank">https://t.me/debianbrasil</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="6---divulga&#xE7;&#xE3;o">6 - Divulga&#xE7;&#xE3;o</h3>
+<p>Ajude a divulgar o Debian em espa&#xE7;os p&#xFA;blicos onde tem pessoas com potencial para se tornarem usu&#xE1;rias do sistema operacional, como por exemplo:</p>
+<ul>
+<li>Sindicatos.</li>
+<li>Escolas.</li>
+<li>Universidades/Faculdades.</li>
+<li>Eventos como congressos, f&#xF3;runs, encontros, etc.</li>
+</ul>
+<p>Utilize seus perfis em redes sociais livres e fechadas para falar sobre Debian, encaminhar publica&#xE7;&#xF5;es de outras pessoas, divulgar os eventos e not&#xED;cias relacionadas:</p>
+<ul>
+<li><p>Redes fechadas:</p>
+<ul>
+<li>Twitter/Facebook/Google+</li>
+</ul>
+</li>
+<li><p>Redes livres:</p>
+<ul>
+<li>GNU Social <a href="https://quitter.se" target="_blank">https://quitter.se</a></li>
+<li>Pump.io <a href="http://pump.io" target="_blank">http://pump.io</a></li>
+<li>Diaspora <a href="https://diaspora.softwarelivre.org" target="_blank">https://diaspora.softwarelivre.org</a></li>
+<li>Hubzilla <a href="https://hub.vilarejo.pro.br" target="_blank">https://hub.vilarejo.pro.br</a></li>
+</ul>
+</li>
+</ul>
+<p>Use produtos com a logomarca Debian. A Comunidade Curitiba Livre vende v&#xE1;rios produtos no site <a href="http://loja.curitibalivre.org.br" target="_blank">http://loja.curitibalivre.org.br</a> e o lucro obtido &#xE9; usado para organizar eventos de Software Livre em Curitiba. Nessa loja on-line voc&#xEA; achar&#xE1;:</p>
+<ul>
+<li>Camisetas.</li>
+<li>Canecas.</li>
+<li>Bottons, chaveiros, cord&#xF5;es de crach&#xE1;, adesivos, etc.</li>
+</ul>
+<h3 id="7---publicidade">7 - Publicidade</h3>
+<p>O Projeto Debian tem um time de publicidade (Publicity Team) que elabora textos de not&#xED;cias e mant&#xE9;m alguns sites relacionados. Esse time &#xE9; respons&#xE1;vel por publicar:</p>
+<ul>
+<li>Debian Press Release <a href="https://www.debian.org/News" target="_blank">https://www.debian.org/News</a></li>
+<li>Debian Project News <a href="https://www.debian.org/News/weekly" target="_blank">https://www.debian.org/News/weekly</a></li>
+<li>Debian Bits, the Debian Blog <a href="https://bits.debian.org" target="_blank">https://bits.debian.org</a></li>
+<li>Debian Micronews <a href="https://micronews.debian.org" target="_blank">https://micronews.debian.org</a></li>
+</ul>
+<p>O time de publicidade tamb&#xE9;m mant&#xE9;m os perfis oficiais do Debian em redes sociais livres que voc&#xEA; pode seguir:</p>
+<ul>
+<li>Pump.io <a href="https://identi.ca/debian" target="_blank">https://identi.ca/debian</a></li>
+<li>GNU Social <a href="https://quitter.se/debian" target="_blank">https://quitter.se/debian</a></li>
+</ul>
+<p>E como voc&#xEA; pode contribuir com o time de publicidade? Voc&#xEA; pode contribuir escrevendo not&#xED;cias ou revisando os textos de outras pessoas, mas para isso &#xE9; imprescind&#xED;vel saber ingl&#xEA;s. Mais informa&#xE7;&#xF5;es em: <a href="https://wiki.debian.org/Teams/Publicity" target="_blank">https://wiki.debian.org/Teams/Publicity</a></p>
+<p>Voc&#xEA; pode ajudar com not&#xED;cias em portugu&#xEA;s enviando textos para o nosso blog da comunidade brasileira de usu&#xE1;rios e desenvolvedores Debian. Obviamente esse blog n&#xE3;o &#xE9; oficial do Projeto Debian. Acesse: <a href="http://debianbrasil.org.br" target="_blank">http://debianbrasil.org.br</a></p>
+<h3 id="8---organiza&#xE7;&#xE3;o-de-eventos">8 - Organiza&#xE7;&#xE3;o de eventos</h3>
+<p>Todos os anos as comunidades ao redor do mundo organizam nas suas cidades o Debian Day para celebrar o anivers&#xE1;rio do Debian que acontece em 16 de agosto (ou no s&#xE1;bado mais pr&#xF3;ximo). Voc&#xEA; pode inscrever a sua cidade para participar no site: <a href="https://wiki.debian.org/DebianDay" target="_blank">https://wiki.debian.org/DebianDay</a></p>
+<p>No dia 17 de junho de 2017 foi lan&#xE7;ada a nova vers&#xE3;o do Debian - vers&#xE3;o 9 chamada de Stretch. Veja algumas cidades que organizaram festas de lan&#xE7;amento (release party), inclusive no Brasil: <a href="https://wiki.debian.org/ReleasePartyStretch" target="_blank">https://wiki.debian.org/ReleasePartyStretch</a></p>
+<p>Esses eventos podem ser desde um encontro em um bar ou em uma pizzaria, at&#xE9; um evento com palestras e oficinas relacionadas ao Debian. O importante &#xE9; promover o encontro da comunidade local para celebrar o Debian.</p>
+<h3 id="9---produ&#xE7;&#xE3;o-de-material-gr&#xE1;fico">9 - Produ&#xE7;&#xE3;o de material gr&#xE1;fico</h3>
+<p>Voc&#xEA; pode produzir materiais gr&#xE1;ficos e disponibiliz&#xE1;-los para que outras pessoas utilizem livremente. Por exemplo:</p>
+<ul>
+<li>Desenhos para camisetas.</li>
+<li>&#xCD;cones.</li>
+<li>Logos.</li>
+<li>Mascotes.</li>
+<li>Temas/wallpapers.</li>
+</ul>
+<p>Envie seu material para o Collab Debian, site que serve de reposit&#xF3;rio para as contribui&#xE7;&#xF5;es gr&#xE1;ficas: <a href="http://collab.debian.net" target="_blank">http://collab.debian.net</a></p>
+<p>O tema de cada vers&#xE3;o do Debian &#xE9; escolhido por vota&#xE7;&#xE3;o, e qualquer pessoa pode enviar propostas. O tema da vers&#xE3;o 6 do Debian, chamada de Squeeze, foi feita pelo brasileiro Val&#xE9;ssio Brito. Ele tamb&#xE9;m criou a logo do Debian Day e &#xE9; o mantenedor do projeto Collab Debian.</p>
+<p>Os temas das duas &#xFA;ltimas vers&#xF5;es do Debian (8 - Jessie e 9 - Stretch) foram criados por Juliette &quot;Taka&quot; Belin, estudante francesa de programa&#xE7;&#xE3;o de computadores e multim&#xED;dia. O nome do tema da Jessie &#xE9; Lines e do Stretch &#xE9; Soft Waves. Para ver o portif&#xF3;lio da Juliette acesse o seu site pessoal <a href="http://jbelin.com" target="_blank">http://jbelin.com</a> e a sua galeria no DeviantArt <a href="https://takaju.deviantart.com/gallery" target="_blank">https://takaju.deviantart.com/gallery</a></p>
+<h3 id="10---tradu&#xE7;&#xE3;o">10 - Tradu&#xE7;&#xE3;o</h3>
+<p>Uma das maiores contribui&#xE7;&#xF5;es que voc&#xEA; pode dar ao Debian &#xE9; ajudar a traduzi-lo do ingl&#xEA;s para o portugu&#xEA;s do Brasil. Normalmente os DDs non-uploading brasileiros contribuem intensamente com as tradu&#xE7;&#xF5;es. O time brasileiro de tradu&#xE7;&#xE3;o (L10n) mant&#xE9;m uma wiki com v&#xE1;rias orienta&#xE7;&#xF5;es para que voc&#xEA; possa aprender e passar a colaborar: <a href="https://wiki.debian.org/Brasil/Traduzir" target="_blank">https://wiki.debian.org/Brasil/Traduzir</a></p>
+<p>Veja a seguir as &#xE1;reas que voc&#xEA; pode traduzir, com trechos retirados da wiki do time brasileiro de tradu&#xE7;&#xE3;o.</p>
+<p><strong>DDTP - Debian Description Translation Packages</strong></p>
+<p>O DDTP - Debian Description Translation Project (em portugu&#xEA;s Projeto de Tradu&#xE7;&#xE3;o das Descri&#xE7;&#xF5;es de Pacotes Debian), &#xE9; um projeto internacional cujo principal objetivo &#xE9; traduzir as descri&#xE7;&#xF5;es dos pacotes do Debian, dessa forma os usu&#xE1;rios que n&#xE3;o leem ingl&#xEA;s ter&#xE3;o mais facilidade em descobrir quais pacotes s&#xE3;o &#xFA;teis a eles. O DDTP foi implementado pelo alem&#xE3;o Michael Bramer e fornece a infraestrutura necess&#xE1;ria para apoiar o processo de tradu&#xE7;&#xE3;o e revis&#xE3;o. Veja mais detalhes e informa&#xE7;&#xF5;es na p&#xE1;gina sobre o DDTP: <a href="https://www.debian.org/international/l10n/ddtp" target="_blank">https://www.debian.org/international/l10n/ddtp</a></p>
+<p>Durante anos a principal interface com o DDTP foi o e-mail, at&#xE9; que Martijn van Oosterhout desenvolveu o DDTSS - Debian Distributed Translation Server Satellite (em portugu&#xEA;s Sat&#xE9;lite do Servidor de Tradu&#xE7;&#xF5;es Distribu&#xED;das Debian). O DDTSS &#xE9; uma interface web que interage com o DDTP e seu banco de dados, fornecendo um ciclo de tradu&#xE7;&#xE3;o e revis&#xE3;o para os diferentes times de tradutores.</p>
+<p>A equipe brasileira foi o segunda a aderir ao DDTP e se mant&#xE9;m entre as mais ativas, gra&#xE7;as ao trabalho de muitos volunt&#xE1;rios. &#xC9; muito f&#xE1;cil colaborar com o DDTP j&#xE1; que o processo de tradu&#xE7;&#xE3;o e revis&#xE3;o &#xE9; feito pela web e os textos a serem traduzidos/revisados s&#xE3;o normalmente pequenos. Um curto espa&#xE7;o de tempo por dia pode ajudar muito a equipe.</p>
+<p>A ferramenta oficial de tradu&#xE7;&#xE3;o do DDTP para a equipe brasileira &#xE9; o DDTSS. Acesse a p&#xE1;gina da nossa equipe em: <a href="http://ddtp2.debian.net/ddtss/index.cgi/pt_BR" target="_blank">http://ddtp2.debian.net/ddtss/index.cgi/pt_BR</a></p>
+<p>Para mais informa&#xE7;&#xF5;es, acesse: <a href="https://wiki.debian.org/Brasil/Traduzir/DDTP" target="_blank">https://wiki.debian.org/Brasil/Traduzir/DDTP</a></p>
+<p><strong>Debian Installer (D-I) e Guia de Instala&#xE7;&#xE3;o</strong></p>
+<p>Composto por dois componentes principais: o pr&#xF3;prio instalador e o guia de instala&#xE7;&#xE3;o, requer trabalho continuado e alinhamento das tradu&#xE7;&#xF5;es entre os materiais. Atualmente est&#xE1; 100% traduzido.</p>
+<p>Felizmente, nossos esfor&#xE7;os de tradu&#xE7;&#xE3;o est&#xE3;o bastante avan&#xE7;ados e atualmente os pacotes apt, dpkg, dselect, aptitude e outros, todos parte do sistema b&#xE1;sico Debian, est&#xE3;o traduzidos para o idioma portugu&#xEA;s do Brasil.</p>
+<p>Para mais informa&#xE7;&#xF5;es, acesse: <a href="https://wiki.debian.org/Brasil/Traduzir/DI" target="_blank">https://wiki.debian.org/Brasil/Traduzir/DI</a></p>
+<p><strong>Modelos debconf</strong></p>
+<p>O projeto consiste na tradu&#xE7;&#xE3;o dos arquivos do tipo POT utilizados pelo debconf, o sistema de configura&#xE7;&#xE3;o de pacotes da distribui&#xE7;&#xE3;o Debian, durante a instala&#xE7;&#xE3;o de pacotes no sistema.</p>
+<p>Para mais informa&#xE7;&#xF5;es, acesse: <a href="https://wiki.debian.org/Brasil/Traduzir/DebConf" target="_blank">https://wiki.debian.org/Brasil/Traduzir/DebConf</a></p>
+<p><strong>P&#xE1;ginas man</strong></p>
+<p>Este projeto visa a tradu&#xE7;&#xE3;o de p&#xE1;ginas de manual de pacotes espec&#xED;ficos do Debian, tais como debconf, fakeroot, dpkg e kernel-package. Pois j&#xE1; existe na ldp-br um projeto de tradu&#xE7;&#xE3;o de p&#xE1;ginas de manual mais comuns. </p>
+<p>Para mais informa&#xE7;&#xF5;es, acesse: <a href="https://wiki.debian.org/Brasil/Traduzir/ManPages" target="_blank">https://wiki.debian.org/Brasil/Traduzir/ManPages</a></p>
+<p><strong>P&#xE1;ginas web</strong></p>
+<p>Atrav&#xE9;s das p&#xE1;ginas web todos podem obter informa&#xE7;&#xF5;es a respeito do Projeto Debian e suas diversas iniciativas. Para que as mesmas estejam dispon&#xED;veis no idioma portugu&#xEA;s do Brasil, uma equipe de tradutores, coordenada atrav&#xE9;s da lista de discuss&#xE3;o debian-l10n-portuguese, utiliza um sistema de controle de vers&#xE3;o (CVS) onde os arquivos fonte, em formato WebWML (WML), ficam armazenados. Os mesmos s&#xE3;o utilizados para gera&#xE7;&#xE3;o das p&#xE1;ginas em formato HTML durante o processo de reconstru&#xE7;&#xE3;o autom&#xE1;tica do site, que ocorre periodicamente.</p>
+<p>Para mais informa&#xE7;&#xF5;es, acesse: <a href="https://wiki.debian.org/Brasil/Traduzir/WebWML" target="_blank">https://wiki.debian.org/Brasil/Traduzir/WebWML</a></p>
+<p>As tradu&#xE7;&#xF5;es dos arquivos POT e das p&#xE1;ginas web WML seguem um ritual de envio de mensagens para a lista de discuss&#xE3;o dos tradutores com o campo de assunto contento as seguintes siglas:</p>
+<ul>
+<li>ITT - Intent To Translate (inten&#xE7;&#xE3;o de traduzir).</li>
+<li>RFR - Request For Review (requisi&#xE7;&#xE3;o para revis&#xE3;o).</li>
+<li>LCFC - Last Chance For Comment (&#xFA;ltima chance para coment&#xE1;rios).</li>
+<li>DONE (feito).</li>
+</ul>
+<p>Para mais informa&#xE7;&#xF5;es, acesse: <a href="https://wiki.debian.org/Brasil/Traduzir/Pseudo-urls" target="_blank">https://wiki.debian.org/Brasil/Traduzir/Pseudo-urls</a></p>
+<p>O status das tradu&#xE7;&#xF5;es pode ser visto na seguinta p&#xE1;gina: <a href="https://l10n.debian.org/coordination/brazilian/pt_BR.by_status.html" target="_blank">https://l10n.debian.org/coordination/brazilian/pt_BR.by_status.html</a></p>
+<p>Uma boa dica &#xE9; ver a palestra do Adriano Rafael Gomes no FISL16:</p>
+<ul>
+<li>V&#xED;deo: <a href="http://ur1.ca/qw5f8" target="_blank">http://ur1.ca/qw5f8</a></li>
+<li>Arquivo da apresenta&#xE7;&#xE3;o: <a href="https://bolicho.arg.eti.br/pub/eventos/2015/fisl16" target="_blank">https://bolicho.arg.eti.br/pub/eventos/2015/fisl16</a></li>
+</ul>
+<h2 id="mensagem-final">Mensagem final</h2>
+<p>Espero que ap&#xF3;s ler este documento e acessar os links indicados, voc&#xEA; se sinta encorajado(a) a contribuir com o Projeto Debian.</p>
+<p>A comunidade brasileira &#xE9; uma grande usu&#xE1;ria de Software Livre, mas precisamos passar de meros usu&#xE1;rios(as) para contribuidores(as) de fato. Seja com c&#xF3;digo ou com qualquer outro tipo de contribui&#xE7;&#xE3;o, todos n&#xF3;s podemos e devemos ajudar os projetos de Software Livre.</p>
+<p>Quando voc&#xEA; come&#xE7;ar a contribuir para o Debian, descobrir&#xE1; que a comunidade &#xE9; muito receptiva e calorosa com os(as) novatos(as). O Projeto mant&#xE9;m v&#xE1;rias inciativas para promover a diversidade. Leia mais sobre isso na p&#xE1;gina a seguir: <a href="https://www.debian.org/intro/diversity" target="_blank">https://www.debian.org/intro/diversity</a></p>
+<p><strong>Venha fazer parte dessa comunidade incr&#xED;vel que &#xE9; o Projeto Debian!</strong></p>
+<h2 id="minibiografia-do-autor">Minibiografia do autor</h2>
+<p>Paulo Henrique de Lima Santana.</p>
+<p>Debian Maintainer (DM).</p>
+<p>Bacharel em Ci&#xEA;ncia da Computa&#xE7;&#xE3;o pela UFPR - Universidade Federal do Paran&#xE1;.</p>
+<p>Trabalha com administra&#xE7;&#xE3;o de redes e sistemas GNU/Linux em Curitiba.</p>
+<p>Entusiasta de Software Livre, participa de diversos grupos de atua&#xE7;&#xE3;o como a Comunidade Curitiba Livre (<a href="http://curitibalivre.org.br" target="_blank">http://curitibalivre.org.br</a>), o Grupo Debian Curitiba, e a ASL.Org - Associa&#xE7;&#xE3;o Software Livre.Org (<a href="http://asl.org.br" target="_blank">http://asl.org.br</a>).</p>
+<p>Palestrou em edi&#xE7;&#xF5;es do FISL - F&#xF3;rum Internacional Software Livre (<a href="http://fisl.org.br" target="_blank">http://fisl.org.br</a>), da Latinoware - Congresso Latino-americano de Software Livre e Tecnologias Abertas (<a href="http://latinoware.org" target="_blank">http://latinoware.org</a>) e da Campus Party Brasil (<a href="http://brasil.campus-party.org" target="_blank">http://brasil.campus-party.org</a>).</p>
+<p>Coordenou a organiza&#xE7;&#xE3;o de eventos em Curitiba como algumas edi&#xE7;&#xF5;es do FLISOL - Festival Latino-americano de Instala&#xE7;&#xE3;o de Software Livre (<a href="http://flisol.curitibalivre.org.br" target="_blank">http://flisol.curitibalivre.org.br</a>), do SFD - Software Freedom Day (<a href="http://sfd.curitibalivre.org.br" target="_blank">http://sfd.curitibalivre.org.br</a>), do Circuito Curitibano de Software Livre (<a href="http://circuito.curitibalivre.org.br" target="_blank">http://circuito.curitibalivre.org.br</a>), e da MiniDebConf Curitiba (<a href="http://br2016.mini.debconf.org" target="_blank">http://br2016.mini.debconf.org</a> e <a href="http://br2017.mini.debconf.org" target="_blank">http://br2017.mini.debconf.org</a>).</p>
+<p>Co-coordenou a organiza&#xE7;&#xE3;o da grade de programa&#xE7;&#xE3;o do F&#xF3;rum Internacional de Software Livre em 2015 (FISL16) e em 2016 (FISL17).</p>
+<p>Curador de Software Livre da Campus Party Brasil desde 2013.</p>
+<h3 id="contatos">Contatos:</h3>
+<p>E-mail: <a href="mailto:phls@softwarelivre.org" target="_blank">phls@softwarelivre.org</a></p>
+<p>Site pessoal: <a href="http://phls.com.br" target="_blank">http://phls.com.br</a></p>
+<p>Perfil no telegram: @phls00</p>
+<p>Perfis em redes sociais livres:</p>
+<ul>
+<li><a href="http://quitter.se/phls" target="_blank">http://quitter.se/phls</a></li>
+<li><a href="http://identi.ca/phls00" target="_blank">http://identi.ca/phls00</a></li>
+<li><a href="http://diaspora.softwarelivre.org/u/phls" target="_blank">http://diaspora.softwarelivre.org/u/phls</a></li>
+<li><a href="http://hub.vilarejo.pro.br/channel/phls" target="_blank">http://hub.vilarejo.pro.br/channel/phls</a></li>
+</ul>
+<p>Perfis em redes sociais fechadas:</p>
+<ul>
+<li><a href="http://twitter.com/phls00" target="_blank">http://twitter.com/phls00</a></li>
+<li><a href="http://facebook.com/phls00" target="_blank">http://facebook.com/phls00</a></li>
+</ul>
+<h2 id="refer&#xEA;ncias-bibliogr&#xE1;ficas">Refer&#xEA;ncias bibliogr&#xE1;ficas</h2>
+<p>Site do Debian: <a href="https://www.debian.org" target="_blank">https://www.debian.org</a></p>
+<p>Wiki do Debian: <a href="https://wiki.debian.org" target="_blank">https://wiki.debian.org</a></p>
+<p>Site da Comunidade Debian Brasil: <a href="http://debianbrasil.org.br" target="_blank">http://debianbrasil.org.br</a></p>
+<p>Site do FTSL - F&#xF3;rum de Tecnologia em Software Livre: <a href="http://ftsl.org.br" target="_blank">http://ftsl.org.br</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../chapter03/" class="navigation navigation-prev " aria-label="Previous page: Capítulo 3 - Open Stack: Implantação e uso">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../chapter05/" class="navigation navigation-next " aria-label="Next page: Capítulo 5 - Semeando liberdade: como (e onde) o software livre inclui as pessoas">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Capítulo 4 - O Projeto Debian quer você!","level":"1.5","depth":1,"next":{"title":"Capítulo 5 - Semeando liberdade: como (e onde) o software livre inclui as pessoas","level":"1.6","depth":1,"path":"chapter05/README.md","ref":"chapter05/README.md","articles":[]},"previous":{"title":"Capítulo 3 - Open Stack: Implantação e uso","level":"1.4","depth":1,"path":"chapter03/README.md","ref":"chapter03/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter04/README.md","mtime":"2017-10-31T09:37:32.635Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-10-31T10:44:07.339Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
