@@ -4,6 +4,10 @@
 
 _Como (e onde) o software livre inclui as pessoas_
 
+
+Flávio Gomes da Silva Lisboa
+
+
 ## O que é Software Livre
 
 Por “software livre” devemos entender aquele software que respeita a liberdade e senso de comunidade dos usuários. Grosso modo, isso significa que os usuários possuem a liberdade de executar, copiar, distribuir, estudar, mudar e melhorar o software. Assim sendo, “software livre” é uma questão de **liberdade**, não de preço. 
