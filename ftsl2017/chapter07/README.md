@@ -115,7 +115,23 @@ O script **CALCULADORA FINANCEIRA.R** poderá ser baixado e usado tanto para os 
 
 **Imagem: Goethe em 1828, óleo sobre tela de Stieler.**
 
+## script CALCULADORA FINANCEIRA.R
 
+O script para efetuar os cálculos mencionados neste capítulo pode ser obtido através do link:
+
+http://www.angelfire.com/un/cde/CALCULADORA_FINANCEIRA.R
+
+A inserção no R se dá através do comando **Arquivo / Novo script**, o qual abre uma janela de edição possibilitando colar o conteúdo previamente copiado da página do link. Na sequência, comanda-se **Arquivo / Salvar como**, selecionando-se a pasta onde se deseja salvá-lo e atribuindo-se o nome de CALCULADORA FINANCEIRA. A extensão R será assumida automaticamente. O comando **Arquivo / Fechar script** retorna ao console. 
+
+A execução do script se dá através do comando **Arquivo / Interpretar código fonte R**, selecionando-se a CALCULADORA FINANCEIRA.R. O console mostrará as orientações contidas nas ajudas, as quais poderão ser resgatadas a qualquer tempo por help(), help.sfa() e help.cap().
+
+Uma questão importante que merece a nossa atenção é a informação que aparece no console assim que ele é aberto: o “R é um software livre e vem sem GARANTIA ALGUMA”. Obviamente, essa garantia não existe porque o R é fruto de um ambiente colaborativo e é totalmente gratuito para o usuário. A hipótese de eventual bug não pode ser descartada, entretanto, dependendo do aplicativo que está sendo processado, é possível estabelecer um controle de qualidade que assegura total confiabilidade. É o caso dos sistemas de amortização. Ao visualizarmos uma planilha de evolução, o saldo ao final do prazo tende a zero. Eventual resíduo de pequena monta é decorrente do arredondamento do cálculo da prestação e dos juros. Já um saldo ao final do prazo incompatível com essa expectativa pode ser decorrente de erros no desenvolvimento do script ou, até mesmo, de um bug no software. 
+
+Esse controle de qualidade também é possível em cálculos de capitalização. Se o cálculo tem o objetivo de obter o valor do depósito para compor determinado montante, o processamento estará correto se esse montante for atingido no prazo desejado. Outros tipos de cálculo de capitalização podem ter o controle de qualidade através de “engenharia reversa”.  Por exemplo, no exercício em que foram realizados 4 depósitos de R$ 700,00 e submetidos a mais 6 meses de rendimentos de juros à taxa percentual de 2% ao mês, chegou-se ao montante de R$ 3.249,12. A “engenharia reversa” desse cálculo é tomar o valor de R$ 3.249,12 como valor presente e submetê-lo ao Sistema Francês de Amortização com 4 prestações e 6 meses de carência, à taxa percentual de juros de 2% ao mês. O saldo final no décimo mês deve tender a zero. Isso confirma que a rotina para cálculo desse montante está correta.
+
+![{w=90%}](images/figura08.png)
+
+Devemos ter sempre em mente que nenhum software elimina o conhecimento humano. Aquilo que a tecnologia automatiza facilitando o nosso trabalho precisa de validação. Esse processo depende do conhecimento acadêmico e profissional na área de conhecimento que ensejou a demanda pelo desenvolvimento do aplicativo. 
 
 
 
