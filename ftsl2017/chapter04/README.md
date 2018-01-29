@@ -183,6 +183,8 @@ E como você pode contribuir com o time de publicidade? Você pode contribuir es
 
 Você pode ajudar com notícias em português enviando textos para o nosso blog da comunidade brasileira de usuários e desenvolvedores Debian. Obviamente esse blog não é oficial do Projeto Debian. Acesse: <http://debianbrasil.org.br>
 
+<div style="page-break-after: always;"></div>
+
 ### 8 - Organização de eventos
 
 Todos os anos as comunidades ao redor do mundo organizam nas suas cidades o Debian Day para celebrar o aniversário do Debian que acontece em 16 de agosto (ou no sábado mais próximo). Você pode inscrever a sua cidade para participar no site: <https://wiki.debian.org/DebianDay>
@@ -266,6 +268,8 @@ Uma boa dica é ver a palestra do Adriano Rafael Gomes no FISL16:
 
 * Vídeo: <http://ur1.ca/qw5f8>
 * Arquivo da apresentação: <https://bolicho.arg.eti.br/pub/eventos/2015/fisl16>
+
+<div style="page-break-after: always;"></div>
 
 ## Mensagem final
 

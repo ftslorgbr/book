@@ -18,15 +18,37 @@ Um programa é software livre se os usuários possuem as quatro liberdades essen
 * A liberdade de **redistribuir** cópias de modo que você possa ajudar ao próximo (liberdade 2).
 * A liberdade de **distribuir** cópias de suas versões modificadas a outros (liberdade 3). Desta forma, você pode dar a toda comunidade a chance de beneficiar de suas mudanças. Para tanto, acesso ao código-fonte é um pré-requisito.
 
+A seguir apresentaremos uma ilustração dos fundamentos do software livre a partir da história de duas famílias que tem experiências diferentes com o uso de computadores. Essa história foi produzida pelo projeto Sembrando Libertad, do ministério de educação da Argentina.
+
+<div style="page-break-after: always;"></div>
+
 ![Software livre para gente pequena - capa {w=90%}](images/figura01.png)
+
+<div style="page-break-after: always;"></div>
+
 ![Software livre para gente pequena - página 1 {w=90%}](images/figura02.png)
+
 ![Software livre para gente pequena - página 2 {w=90%}](images/figura03.png)
+
+<div style="page-break-after: always;"></div>
+
 ![Software livre para gente pequena - página 3 {w=90%}](images/figura04.png)
+
 ![Software livre para gente pequena - página 4 {w=90%}](images/figura05.png)
+
+<div style="page-break-after: always;"></div>
+
 ![Software livre para gente pequena - página 5 {w=90%}](images/figura06.png)
+
 ![Software livre para gente pequena - página 6 {w=90%}](images/figura07.png)
+
+<div style="page-break-after: always;"></div>
+
 ![Software livre para gente pequena - página 7 {w=90%}](images/figura08.png)
+
 ![Software livre para gente pequena - página 8 {w=90%}](images/figura09.png)
+
+<div style="page-break-after: always;"></div>
 
 ## O que é Tecnologia Social
 

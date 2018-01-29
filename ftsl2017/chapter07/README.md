@@ -60,6 +60,7 @@ No presente caso, perder o desconto que seria obtido na compra à vista para pag
 
 Não existe uma fórmula para calcular a taxa de juros de maneira direta. O seu cálculo é obtido por um processo iterativo. Note que o R informou que realizou 1002 cálculos para chegar ao resultado com quatro casas decimais, mas nós nem notamos isso porque ocorreu em fração de segundo. Se necessitarmos de mais casas decimais, precisaremos editar o script para aumentar o processo iterativo, mas isso só vale a pena quando os valores envolvidos são muito grandes. 
 
+<div style="page-break-after: always;"></div>
 
 ## Calculando o valor presente
 
@@ -106,6 +107,8 @@ Aproveitando o exemplo anterior de depósitos de R$ 700,00, vamos interromper a 
 ![{w=90%}](images/figura06.png)
 
 O montante parcial obtido no momento do quarto depósito continuou sendo remunerado a 2% ao mês por mais 6 meses, elevando o valor de R$ 2.885,13 para R$ 3.249,12. Percebe-se também que o valor necessário para a compra do notebook seria atingido dois meses após a interrupção dos depósitos.
+
+<div style="page-break-after: always;"></div>
 
 ## Considerações finais
 
