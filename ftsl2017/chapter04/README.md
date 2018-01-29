@@ -1,6 +1,8 @@
 # Capítulo 4
 
-# O Projeto Debian quer você!
+**O Projeto Debian quer você!**
+
+Paulo Henrique de Lima Santana
 
 ## Debian
 
