@@ -6,6 +6,6 @@
 
 O OpenStack é composto por uma estrutura modular. Embora seja possível realizar uma instalação mínima em uma única máquina (física ou virtual) para fins didáticos, uma instalação de produção requer várias máquinas físicas para distribuir adequadamente os diversos serviços.
 
-A figura abaixo ilustra possível arquitetura de hardware:
+A figura abaixo ilustra uma possível arquitetura de hardware:
 
-.. image:: images/hwreqs.png
+  image: ![Hardware](images/hwreqs.png)
