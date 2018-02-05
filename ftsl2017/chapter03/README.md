@@ -5,7 +5,7 @@
 
 ### Apresentação
 
-O [Openstack][openstack] é um software modular que permite implantar uma infraestrutura de nuvem pública ou privada.
+O [Openstack][os] é um software modular que permite implantar uma infraestrutura de nuvem pública ou privada.
 
 ### Requisitos de hardware e software
 
@@ -175,4 +175,5 @@ Por exemplo, para criar uma nova instância (máquina virtual) no horizon usamos
 
 Referências:
 
-[openstack]: http://openstack.org
+[os]: http://openstack.org
+
