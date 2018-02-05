@@ -5,7 +5,11 @@
 
 ### Apresentação
 
-O [Openstack][os] é um software modular que permite implantar uma infraestrutura de nuvem pública ou privada.
+O [Openstack](https://openstack.org) é um software modular que permite implantar uma infraestrutura de nuvem pública ou privada. O Openstack é utilizado como base por diversas empresas de tecnologia de grande porte.
+
+Embora seja um software bastante complexo, por sua caracterísitca modular, pode ser implementado em partes e de acordo com a necessidade de cada organização. Instalados os serviços básicos, outros serviços podem ser adicionados a qualquer momento sem interferir com os serviços existentes.
+
+Um completo [tutorial de instalação](https://www.openstack.org/software/start/) está disponível para as principais distribuições de Linux. As distribuições cobertas na seção *Deploy OpenStack* são Ubuntu, RHEL/Centos e SUSE.
 
 ### Requisitos de hardware e software
 
@@ -173,7 +177,6 @@ Por exemplo, para criar uma nova instância (máquina virtual) no horizon usamos
 
 ![Painel de crição de instância do Openstack](images/launchinstance.png)
 
-Referências:
+### Conclusão
 
-[os]: http://openstack.org/ "Site Openstack"
-
+A experiência de implantação do OpenStack, embora complexa e sujeita a certas dificuldades inerentes ao desenvolvimento paralelo de diferentes serviços interdependentes, mostra-se como uma alternativa viável para implantação de infraestruturas de nuvem privada dentro de organizações de médio e grande porte.
