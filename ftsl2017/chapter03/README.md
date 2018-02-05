@@ -41,7 +41,7 @@ Alguns serviços essenciais para operação do Openstack são:
 
 Outros serviços podem ser disponibilizados, por exemplo:
 
-* **Máquina física (ironic)**: Suporte o gerenciamento e provisionamento de máquinas físicas.
+* **Máquina física (ironic)**: Suporte ao gerenciamento e provisionamento de máquinas físicas.
             
 * **Orquestração de contêineres (magnum)**: Suporte a motores de orquestração de contêineres tais como Docker Swarm, Kubernetes e Mesos.
 
