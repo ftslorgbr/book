@@ -235,7 +235,8 @@ arq7
 arq8
 ```
 
-
+$ paste ­sd+ impar | bc
+25
 
 
 Para fazer um fatorial:
