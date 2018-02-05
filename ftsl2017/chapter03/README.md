@@ -1,6 +1,7 @@
 # Capítulo 3
 
 ## OpenStack: Implantação e uso
+```Wilson Horstmeyer Bogado```
 
 ### Requisitos de hardware e software
 
@@ -162,4 +163,8 @@ Embora os comandos do Openstack sejam relativamente fáceis, com opções bastan
 
 A figura abaixo mostra a página de login do horizon:
 
-![Arquitetura de software](images/login.png)
+![Página de login do Openstack](images/login.png)
+
+Por exemplo, para criar uma nova instância (máquina virtual) no horizon usamos a opção Project / Compute / Instances:
+
+![Painel de crição de instância do Openstack](images/launchinstance.png)
