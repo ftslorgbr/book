@@ -16,3 +16,10 @@ A figura abaixo ilustra uma possível arquitetura de software: ![Arquitetura de 
 
 **Nó de armazenamento de blocos**: Contém os discos que o serviço de armazenamento provisiona para as instâncias.
 
+### Rede física
+
+Uma vez instalado o sistema operacional desejado em cada um dos nós, é necessário configurar as interfaces de rede. Todos os nós requerem acesso à internet para fins administrativos tais como instalação de pacotes, atualizações, DNS e NTP.
+
+A figura abaixo exemplifica uma hipotética configuração de rede física: ![Arquitetura de software](images/nwlayout.png)
+
+Instâncias podem ser conectadas diretamente à rede de gerenciamento (pública) ou à rede virtual (privada).
