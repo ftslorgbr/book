@@ -1,7 +1,7 @@
 # Capítulo 3
 
 ## OpenStack: Implantação e uso
-#### Wilson Horstmeyer Bogado
+*Wilson Horstmeyer Bogado*
 
 ### Requisitos de hardware e software
 
