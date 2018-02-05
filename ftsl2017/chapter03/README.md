@@ -181,10 +181,11 @@ Por exemplo, para criar uma nova instância (máquina virtual) no horizon usamos
 
 A experiência de implantação do OpenStack, embora complexa e sujeita a certas dificuldades inerentes ao desenvolvimento paralelo de diferentes serviços interdependentes, mostra-se como uma alternativa viável para implantação de infraestruturas de nuvem privada dentro de organizações de médio e grande porte.
 
------
+---
 **Wilson Horstmeyer Bogado** é professor da Universidade Tecnológica Federal do Paraná (UTFPR), Campus Curitiba, Departamento Acadêmico de informática. Tem graduação em Engenharia Civil pela UFPR e mestrado em Métodos Numéricos para Engenharia pela UFPR. Foi Coordenador de TI do Campus Curitiba de 2013 a 2017 onde gerenciou a implementação da infraestrutura de virtualização de servidores, incialmente com VMware. Atualmente colabora com a Coordenadoria de TI no desenvolvimento de software Web com tecnologia Java e na migração da infraestrura para OpenStack.
 
-*#### Referências
+---
+#### Referências
 
 * https://openstack.org
 * https://docs.openstack.org/newton/install-guide-ubuntu/
