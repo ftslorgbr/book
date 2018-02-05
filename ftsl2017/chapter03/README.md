@@ -175,5 +175,5 @@ Por exemplo, para criar uma nova instância (máquina virtual) no horizon usamos
 
 Referências:
 
-[os]: http://openstack.org
+[os]: http://openstack.org/ "Site Openstack"
 
