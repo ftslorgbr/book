@@ -23,3 +23,42 @@ Uma vez instalado o sistema operacional desejado em cada um dos nós, é necess�
 A figura abaixo exemplifica uma hipotética configuração de rede física: ![Arquitetura de software](images/nwlayout.png)
 
 Instâncias podem ser conectadas diretamente à rede de gerenciamento (pública) ou à rede virtual (privada).
+
+### Serviços do Openstack
+
+Alguns serviços essenciais para operação do Openstack são:
+
+* **Gerenciamento de redes virtuais (neutron)**: Suporte à criação de redes virtuais.
+
+* **Provisionamento de recursos de computação (nova)**: Suporte ao provisionamento de máquinas virtuais e recursos associados.
+
+* **Gerenciamento de imagens (glance)**: Suporte à criação de imagens de sistemas operacionais para criação de máquinas virtuais.
+
+* **Armazenamento em blocos (cinder)**: Alocação de volumes de dados alocados às máquinas virtuais.
+
+* **Console de gerenciamento Web (horizon)**: Interface Web criação de máquinas virtuais, volumes, redes além de outros serviços opcionais.
+
+
+Outros serviços podem ser disponibilizados, por exemplo:
+
+* **Máquina física (ironic)**: Suporte o gerenciamento e provisionamento de máquinas físicas.
+            
+* **Orquestração de contêineres (magnum)**: Suporte a motores de orquestração de contêineres tais como Docker Swarm, Kubernetes e Mesos.
+
+* **Banco de dados (trove)**: Suporte a provisionamento de bancos de dados.
+
+* **Gerenciamento de credenciais (barbican)**: Suporte ao armazenamento de dados secretos tais como senhas, chaves criptográficas e certificados digitais.
+
+* **Mensagens (zaqar)**: Suporte ao compartilhamento de informações entre componentes e aplicações distribuídas.
+            
+* **Armazenamento de objetos (swift)**: Suporte ao armazenamento e recuperação de objetos.
+
+* **Orquestração (heat)**: Suporte à orquestração de recursos na nuvem.
+
+* **Sistemas de arquivos compartilhados (manila)**: Acesso coordenado a sistemas de arquivos distribuídos.
+
+* **Telemetria e alarmes (aodh)**: Dispara alarmes quando medidas ou eventos coletados excedem regras definidas.
+
+* **Coleta de dados de telemetria (ceilometer)**: Eficientemente monitora dados relacionados aos serviços do OpenStack, coleta eventos e dados de monitoramento enviados por serviços, publica dados coletados em diversos meios.
+
+
