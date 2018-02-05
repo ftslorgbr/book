@@ -235,6 +235,9 @@ arq7
 arq8
 ```
 
+
+
+
 Para fazer um fatorial:
 
 ```bash
@@ -256,10 +259,31 @@ $ seq -s\* 5 | bc
 120
 ```
 
+Também dá para fazer de outra forma:
+
+```bash
+$ echo {1..6} | tr ' ' +
+1+2+3+4+5+6
+$ echo {1..6} | tr ' ' \* | bc
+720
+```
+
+Ou ainda:
+
+```bash
+$ echo $(($(echo {1..6} | tr ' ' \*)))
+720
+```
+
+A pergunta não é se dá para fazer em Shell.
+Pergunte qual é a melhor forma de fazer em
+Shell!
+
+
 ## Sites imperdíveis:
 
-* http://www.julioneves.com
-* http://www.aurelio.net
+* http://shellscript.com.br/
+* https://jneves.wordpress.com/
 * http://www.thobias.org
 * http://br.groups.yahoo.com/group/shell-script
 
