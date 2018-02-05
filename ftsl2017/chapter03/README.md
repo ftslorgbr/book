@@ -8,4 +8,4 @@ O OpenStack é composto por uma estrutura modular. Embora seja possível realiza
 
 A figura abaixo ilustra uma possível arquitetura de hardware:
 
-  image: ![Hardware](images/hwreqs.png)
+  Arquitetura de hardware ![Hardware](images/hwreqs.png)
