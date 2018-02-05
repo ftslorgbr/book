@@ -158,5 +158,6 @@ shell formatter:
   --prefix PREFIX       add a prefix to all variable names
 ```
 
+Embora os comandos do Openstack sejam relativamente fáceis, com opções bastante intuitivas, em geral usamos o console Web (horizon) para provisionar recursos.
 
 A figura abaixo mostra a página de login do horizon: ![Arquitetura de software](images/login.png)
