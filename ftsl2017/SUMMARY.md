@@ -8,3 +8,4 @@
 * [Capítulo 5 - Semeando liberdade: como (e onde) o software livre inclui as pessoas](chapter05/README.md)
 * [Capítulo 6 - Programando Hardware: Utilizando Recursos GPIO do Raspberry PI](chapter06/README.md)
 * [Capítulo 7 - Usando o R como calculadora financeira](chapter07/README.md)
+* [Capítulo 8 - Computação Paralela com MPI (Message Passing Interface)](chapter08/README.md)
