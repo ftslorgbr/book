@@ -1,9 +1,11 @@
 # Capítulo 2
-Alex Sandro Custodio Hinckel (Infra Estrutura)
 
+**OpenStreetMap**
+
+Alex Sandro Custodio Hinckel (Infra Estrutura)
 Fabio Leandro Lapuinka  (Desenvolvimento)
 
-Definição
+## Definição
 
 "OpenStreetMap é um projeto de mapeamento colaborativo para criar um mapa livre e editável do mundo, inspirado por sites como a Wikipédia. 
 Traduzindo para português o nome significa Mapa Aberto de Ruas. Os mapas foram desenvolvidos e são mantidos com rigor por sua comunidade  voluntária de mapeadores, que inserem e revisam dados de receptores GPS portatéis, fotografias aéreas, imagens de satélite e outras fontes livres. 
@@ -14,12 +16,13 @@ Fonte: https://pt.wikipedia.org/wiki/OpenStreetMap
 Foque nos conjunto de dados geoespaciais, este é o coração do projeto, todos os aplicativos e bibliotecas que vou mostrar, são implementações de aplicações que usam estes dados.
 Aqui você pode baixar a base de dados de Mapa do mundo inteiro: http://download.geofabrik.de/
 
-Uso simples
+## Uso simples
+
 Como  desenvolvedor você pode extrair as informações do OpenStreetMaps e utilizar para o seu projeto. Por exemplo, você responder as seguintes perguntas:
-Quais são os hospitais mais próximos da minha casa num raio de 5km?
-O ponto atual que me encontro, está fora da área permitida?
-Me informe a rota do ponto A ao ponto B, utilizando uma estratégia a pé.
-Quais são meus clientes que estão mais próximos do vendedor X?
+* Quais são os hospitais mais próximos da minha casa num raio de 5km?
+* O ponto atual que me encontro, está fora da área permitida?
+* Me informe a rota do ponto A ao ponto B, utilizando uma estratégia a pé.
+* Quais são meus clientes que estão mais próximos do vendedor X?
 
 
 Visualização de elementos de um mapa
@@ -40,9 +43,11 @@ https://translate.mapsmarker.com/projects/lmm
 Docker
 https://hub.docker.com/r/homme/openstreetmap-tiles-docker/ 
 
-Conclusão
+##Conclusão
+
 Invista neste projeto, ele é um diferencial tecnológico e faz parte da infra estrutura básica de programas georeferenciados. 
 Começe simples, logo logo você vai também se apaixonar pelo projeto.
+
 http://leafletjs.com/
 http://www.liedman.net/leaflet-routing-machine/
  
