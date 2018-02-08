@@ -2,8 +2,9 @@
 
 **OpenStreetMap**
 
-Alex Sandro Custodio Hinckel (Infra Estrutura)
-Fabio Leandro Lapuinka  (Desenvolvimento)
+_Alex Sandro Custodio Hinckel (Infra Estrutura)_
+
+_Fabio Leandro Lapuinka  (Desenvolvimento)_
 
 ## Definição
 
@@ -43,7 +44,7 @@ https://translate.mapsmarker.com/projects/lmm
 Docker
 https://hub.docker.com/r/homme/openstreetmap-tiles-docker/ 
 
-##Conclusão
+## Conclusão
 
 Invista neste projeto, ele é um diferencial tecnológico e faz parte da infra estrutura básica de programas georeferenciados. 
 Começe simples, logo logo você vai também se apaixonar pelo projeto.
