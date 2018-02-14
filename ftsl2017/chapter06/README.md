@@ -129,6 +129,8 @@ GPIO.setup(7, GPIO.OUT)
 GPIO.output(7, True)
 GPIO.cleanup()
 ```
+<div style="page-break-after: always;"></div>
+
 ### Equipamentos e componentes necessários
 
 Antes de iniciar a implementação serão feitos breves comentários sobre alguns componentes que são úteis na prototipação de projetos que envolvam sensores e dispositivos integrados ao SBC. Não se pretende aqui nenhum aprofundamento nas questões fı́sicas e eletrônicas relacionadas aos componentes apresentados, apenas fornecer informações básicas sobre a funcionalidade de cada um dos produtos que serão utilizados em neste trabalho.

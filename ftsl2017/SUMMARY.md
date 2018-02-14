@@ -9,3 +9,4 @@
 * [Capítulo 6 - Programando Hardware: Utilizando Recursos GPIO do Raspberry PI](chapter06/README.md)
 * [Capítulo 7 - Usando o R como calculadora financeira](chapter07/README.md)
 * [Capítulo 8 - Computação Paralela com MPI (Message Passing Interface)](chapter08/README.md)
+* [Capítulo 9 - Gerenciamento de Projetos apoiado por métricas de Software](chapter09/README.md) 

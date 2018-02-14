@@ -20,9 +20,7 @@ Um programa é software livre se os usuários possuem as quatro liberdades essen
 
 A seguir apresentaremos uma ilustração dos fundamentos do software livre a partir da história de duas famílias que tem experiências diferentes com o uso de computadores. Essa história foi produzida pelo projeto Sembrando Libertad, do ministério de educação da Argentina.
 
-<div style="page-break-after: always;"></div>
-
-![Software livre para gente pequena - capa {w=90%}](images/figura01.png)
+![Software livre para gente pequena - capa](images/figura01.png)
 
 <div style="page-break-after: always;"></div>
 
@@ -125,12 +123,8 @@ Em qualquer um dos casos, isso é **suficiente**?
 
 ## Referências bibliográficas
 
-BASTOS, Caio Gomide. KANEKO, Flávia Yukimi. NAPOLITANO, Guilherme. REIS, Thiago de Barros. **Inteligência Coletiva e Inclusão Digital**. 2012. Disponível em <https://pt.slideshare.net/thiagodbr/inteligncia-coletiva-e-incluso-digital-12520004>.
-
-DAGNINO, Renato. A tecnologia social e seus desafios. **Tecnologia social**: uma estratégia para o desenvolvimento. Fundação Banco do Brasil. Rio de Janeiro : 2004 
-
-GNU PROJECT. **What is free software?** Disponível em <http://www.gnu.org/philosophy/free-sq.html>. Acesso em 11 out 2017.
-
-MORI, Cristina Kiomi. **Políticas públicas para inclusão digital no Brasil**: aspectos institucionais e efetividade em iniciativas federais de disseminação de telecentros no período 2000-2010. Tese (Doutorado em Política Social) – Instituto de Ciências Humanas. Universidade de Brasília, 2011. 
-
-RAMÓN, Ramón. **Soberania Nacional e Independencia Tecnológica**: Soberanía Tecnológica. Disponível em <https://pt.slideshare.net/ramonramonsa/soberania-tecnologica-fisl14>
+* BASTOS, Caio Gomide. KANEKO, Flávia Yukimi. NAPOLITANO, Guilherme. REIS, Thiago de Barros. **Inteligência Coletiva e Inclusão Digital**. 2012. Disponível em <https://pt.slideshare.net/thiagodbr/inteligncia-coletiva-e-incluso-digital-12520004>.
+* DAGNINO, Renato. A tecnologia social e seus desafios. **Tecnologia social**: uma estratégia para o desenvolvimento. Fundação Banco do Brasil. Rio de Janeiro : 2004 
+* GNU PROJECT. **What is free software?** Disponível em <http://www.gnu.org/philosophy/free-sq.html>. Acesso em 11 out 2017.
+* MORI, Cristina Kiomi. **Políticas públicas para inclusão digital no Brasil**: aspectos institucionais e efetividade em iniciativas federais de disseminação de telecentros no período 2000-2010. Tese (Doutorado em Política Social) – Instituto de Ciências Humanas. Universidade de Brasília, 2011. 
+* RAMÓN, Ramón. **Soberania Nacional e Independencia Tecnológica**: Soberanía Tecnológica. Disponível em <https://pt.slideshare.net/ramonramonsa/soberania-tecnologica-fisl14>. Acesso em 11 out 2017.
