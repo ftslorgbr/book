@@ -12,6 +12,7 @@ Se estiver demorando demais para baixar os blobs direto do ssb, os mais pesados 
 e
 [aqui (md5: c367d313c80d752c246f0dab0db1b7fc)](https://serprodrive.serpro.gov.br/s/615qxVY6Hv4RMkp)
 Use [sbot blobs.add](http://scuttlebot.io/apis/scuttlebot/blobs.html#add-sink) para adiciona-los.
+
 # Como escrever os capítulos
 
 **Procedimentos iniciais:**
