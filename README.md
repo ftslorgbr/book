@@ -6,8 +6,12 @@ Para cada do evento, iniciando em 2017, vamos produzir um livro, no qual os cap�
 
 O projeto está aberto para os contribuidores não somente enviem seus textos, mas possam ver em suas próprias máquinas como o livro todo até o ponto em que foi produzido.
 
-Esse repositório também está disponível como [git-ssb](ssb://%Zom1k68PFw1UW5pLXfiJfQ1mvyN2sVLJZ8ifk7OPZ5o=.sha256).
-
+Esse repositório também está disponível como [git-ssb](ssb://%Zom1k68PFw1UW5pLXfiJfQ1mvyN2sVLJZ8ifk7OPZ5o=.sha256). 
+Se estiver demorando demais para baixar os blobs direto do ssb, os mais pesados estao
+[aqui (md5: 98c0650a66896f7df30e26b5ce4e2bec)](https://serprodrive.serpro.gov.br/s/RZJecuHVlvXsJtR)
+e
+[aqui (md5: c367d313c80d752c246f0dab0db1b7fc)](https://serprodrive.serpro.gov.br/s/615qxVY6Hv4RMkp)
+Use [sbot blobs.add](http://scuttlebot.io/apis/scuttlebot/blobs.html#add-sink) para adiciona-los.
 # Como escrever os capítulos
 
 **Procedimentos iniciais:**
