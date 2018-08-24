@@ -4,6 +4,8 @@ Este é um repositório para livros sobre software livre com conteúdo produzido
 
 Para cada do evento, iniciando em 2017, vamos produzir um livro, no qual os capítulos serão produzidos por palestrantes e instrutores.
 
+Baixe o [livro de 2017](https://github.com/ftslorgbr/book/tree/master/download/ftsl2017-book.pdf).
+
 O projeto está aberto para os contribuidores não somente enviem seus textos, mas possam ver em suas próprias máquinas como o livro todo até o ponto em que foi produzido.
 
 Esse repositório também está disponível como git-ssb (%Zom1k68PFw1UW5pLXfiJfQ1mvyN2sVLJZ8ifk7OPZ5o=.sha256). 
